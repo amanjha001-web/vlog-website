@@ -2,16 +2,16 @@ import conf from '../conf/conf';
 import { Client, Databases, Storage, Query, ID } from 'appwrite';
 
 export class AppwriteService {
-  Client = new Client();
+  client = new Client();
   databases;
   bucket;
 
   constructor() {
-    this.Client
+    this.client
       .setEndpoint(conf.appwriteURL)
       .setProject(conf.appwriteProjectID);
-    this.databases = new Databases(this.Client);
-    this.bucket = new Storage(this.Client);
+    this.databases = new Databases(this.client);
+    this.bucket = new Storage(this.client);
   }
 
   async createPost({ title, slug, content, featuredImage, status, userId }) {
