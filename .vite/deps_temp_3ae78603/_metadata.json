@@ -1,0 +1,73 @@
+{
+  "hash": "70a13d06",
+  "configHash": "605fd3ee",
+  "lockfileHash": "3e2da1a9",
+  "browserHash": "4a62950a",
+  "optimized": {
+    "react": {
+      "src": "../../node_modules/react/index.js",
+      "file": "react.js",
+      "fileHash": "7b3c8ab3",
+      "needsInterop": true
+    },
+    "react-dom/client": {
+      "src": "../../node_modules/react-dom/client.js",
+      "file": "react-dom_client.js",
+      "fileHash": "97f6a38e",
+      "needsInterop": true
+    },
+    "react-redux": {
+      "src": "../../node_modules/react-redux/dist/react-redux.mjs",
+      "file": "react-redux.js",
+      "fileHash": "a1785144",
+      "needsInterop": false
+    },
+    "react-router-dom": {
+      "src": "../../node_modules/react-router-dom/dist/index.mjs",
+      "file": "react-router-dom.js",
+      "fileHash": "c5a896b6",
+      "needsInterop": false
+    },
+    "@reduxjs/toolkit": {
+      "src": "../../node_modules/@reduxjs/toolkit/dist/redux-toolkit.modern.mjs",
+      "file": "@reduxjs_toolkit.js",
+      "fileHash": "9d57ba49",
+      "needsInterop": false
+    },
+    "html-react-parser": {
+      "src": "../../node_modules/html-react-parser/esm/index.mjs",
+      "file": "html-react-parser.js",
+      "fileHash": "2f982a73",
+      "needsInterop": false
+    },
+    "appwrite": {
+      "src": "../../node_modules/appwrite/dist/esm/sdk.js",
+      "file": "appwrite.js",
+      "fileHash": "dbf439f5",
+      "needsInterop": false
+    },
+    "react-hook-form": {
+      "src": "../../node_modules/react-hook-form/dist/index.esm.mjs",
+      "file": "react-hook-form.js",
+      "fileHash": "a8d3b93b",
+      "needsInterop": false
+    },
+    "@tinymce/tinymce-react": {
+      "src": "../../node_modules/@tinymce/tinymce-react/lib/es2015/main/ts/index.js",
+      "file": "@tinymce_tinymce-react.js",
+      "fileHash": "2a69f987",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-X6IWUF3J": {
+      "file": "chunk-X6IWUF3J.js"
+    },
+    "chunk-SU5GHUYN": {
+      "file": "chunk-SU5GHUYN.js"
+    },
+    "chunk-V4OQ3NZ2": {
+      "file": "chunk-V4OQ3NZ2.js"
+    }
+  }
+}
